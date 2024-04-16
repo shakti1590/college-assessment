@@ -1,0 +1,201 @@
+/* Table.css */
+.table-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sort-options {
+  display: flex;
+  align-items: flex-end;
+}
+
+.search-input {
+  width: 500px;
+  height:30px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+}
+
+.college-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.college-table th,
+.college-table td {
+  padding: 18px;
+  border: 1px solid #ddd;
+}
+
+.college-table th {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.college-table-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.college-cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.college-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.college-logo {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.college-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(26, 174, 219);
+}
+
+.other-details {
+  font-size: 12px;
+}
+
+.other-details > div {
+  margin-bottom: 5px;
+}
+
+.featured-flag {
+  position: absolute;
+  top: 169px;
+  left: 85px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 600px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid rgb(26, 174, 219);
+  border-radius: 20px;
+  margin: 10px auto;
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-input:hover {
+  border-color: rgb(120, 229, 192);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: rgb(120, 229, 192);
+  box-shadow: 0 0 0 0.2rem rgb(12, 218, 149);
+}
+
+.search-icon {
+  position: absolute;
+  left: 66%;
+  top: 5.8%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.college-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.college-links button {
+  margin-top: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.college-cell {
+  position: relative;
+}
+
+.featured-flag {
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
+
+.other-cells {
+  font-size: 2px;
+}
+
+.table-cell {
+  font-size: 12px;
+}
+
+.college-table thead th {
+  background-color: rgb(120, 229, 192);
+}
+
+.sort-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sort-options span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.sort-options label {
+  margin-right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.sort-options label:hover {
+  color: #007bff;
+}
+
+.sort-options input[type="radio"] {
+  margin-right: 5px;
+}
+
+.featured-row {
+  background-color: #f3e9e9;
+}
+
+.second-col {
+  font-size: 20px;
+  color: rgb(3, 136, 232);
+}
+
+.compare-button {
+  background: none;
+  border: none;
+  color: rgb(47, 94, 60);
+  cursor: pointer;
+  display: flex;
+  margin-top: 8px;
+  margin-left: -3px;
+}
+
+.compare-button i {
+  margin-left: 5px;
+}
