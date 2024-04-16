@@ -31,7 +31,7 @@ To install all the dependencies of the project, run the following command:
 
 
 #### Deployment Link:
- - Link : https://weather-app-sage-pi-42.vercel.app/
+ - Link : https://college-assessment.vercel.app/
 
 
 <p align="center">
